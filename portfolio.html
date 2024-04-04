@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport"
+     content="width=device-width, initial-scale=1">
+	<title> Resume Portfolio</title>
+
+	<link rel="stylesheet" href="CV Portfolio.css">
+    <script src="https://kit.fontawesome.com/7468b673ab.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+    		<nav>
+    			 <h3 class="logo">Portfolio</h3>
+    			<ul id="sidemenu">
+    				<li><a href="#header">Home</a></li>
+    				<li><a href="#about">About</a></li>
+    				<li><a href="#services">Certifications</a></li>
+    				<li><a href="#portfolio">Projects</a></li>
+    				<li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-circle-xmark" onclick="closemenu()"></i>
+    			</ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+    		</nav>
+
+            <div class="header-text">
+                <h2>Hi,I'm <span>Indhu Krishnan</span><br>I am a Engineering student .</h2>
+    		</div>
+    	</div>
+    	
+    </div>
+    
+<!-----  About ----->
+
+    <div id="about">
+    	<div class="container">
+    		<div class="row">
+    			<div class="about-col-1">
+    				<img src="images/background.jpg">
+    			</div>
+    			<div class="about-col-2">
+    				<h1 class="sub-title">About Me</h1>
+    				<br>
+    				<br>
+    				<p >Aspiring Software Engineer with Bachelor's degree in Computer Science and Engineering.  I am a certified UI UX developer
+                         Proficiency in fronted Coding with strong foundation in HTML and CSS, JavaScript.
+                      . I am able to handle multiple tasks on a daily basis.I am always energetic and eager 
+    				to learn new skills.I have experience working as part of a team and individually.
+                    </p>
+
+                    <div class="tab-titles">
+                    	<p class="tab-links active-link"onclick="opentab('Skills')">Skills</p>
+                    	<p class="tab-links"onclick="opentab('Projects')">Projects</p>
+                    	<p class="tab-links"onclick="opentab('Education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab"id="Skills">
+                    	<ul>
+                            <li><span>UI UX DEVELOPER</span><br>Creating interactive UI designs using Figma, Illustrator, XD and Photoshop. </li>
+                    		<li><span>FRONT-END DEVELOPER</span><br>Designing Webpage of frontend coding with HTML,CSS,JAVASCRIPT</li>
+                            
+                    		<li><span>PROBLEM SOLVING</span><br>Basic to Medium Level of Problem Solving with JAVA Language</li>
+                            <li><span>EDITING</span><br>Designing and Editing</li>
+                    	</ul>
+                    </div>
+
+                    <div class="tab-contents"id="Projects">
+                    	<ul>
+
+                    		<li><span>Montra-Expesnse Tracker</span><br>It is a UI design. This app is created for a expense managemnt of an induvidual. This app helps everyone to manage their expenses and financial criteria easily. </li>
+
+                    		<li><span>Hamburger World-Online Food Ordering</span><br>Designing Webpage of online ordering for a burger shop using HTML and CSS</li>
+
+                    	    <li><span>JUCIE WEBSITE</span><br>Designing Juice Webpage using HTML CSS.</li>
+                    	</ul>
+                    </div>
+
+                   <div class="tab-contents"id="Education">
+                        <ul>
+                            <li><span> BE.Computer Science and Engineering</span><br>Hindusthan College of Engineering and Technology<br>2021-2025<br>Current Percentage-75%</li>
+
+                            <li><span>XII-STANDARD</span><br>Sri Vidhya Bharati Matric Higher Secondary School<br>2019-2021<br>Percentage-91%</li>
+
+                            <li><span>X-STANDARD</span><br>Sri Vidhya Bharati Matric Higher Secondary School<br>2018-2019<br>Percentage-90%</li>
+
+                        </ul>
+                    </div>
+    			</div>
+    		</div>
+    	</div>
+    </div>
+<!----- Services ----->
+
+<div id="services">
+    <div  class="container">
+        <h1 class="sub-title">My Certifications</h1>
+        <div class="services-list">
+            <div>
+                <h2>UI UX Developer</h2>
+                <p>I have successfully completed UI UX Developer course with Grade A+ from Pumo Technovation And I have gained many useful knowledge.</p>
+                <a href="#">Learn More</a>
+            </div>
+
+             <div>
+                <h2>Front End Devlopement-HTML</h2>
+                <p>In this course I have learnt many things about HTML and successfully completed my certification in GreatLearning.</p>
+                <a href="#">Learn More</a>
+            </div>
+
+            <div>
+                <h2>Front End Devlopement-CSS</h2>
+                <p>I have successfully completed CSS  in GreatLearning Platform with new knowledge in frontend.
+
+                </p>
+                <a href="#">Learn More</a>
+            </div>
+
+            <div>
+                <h2>Programming in Java</h2>
+                <p>In this course I have learnt many concepts in Java and successfully completed my certification with 58% from NPTEL Examination.</p>
+                <a 
+                href="#">Learn More</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--------Portfolio------ -->
+
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Projects </h1>
+        <div class="project-list">
+            <div>
+                <h2>Hamburger World-Online Food Ordering</h2>
+                <p>Designing Webpage of online ordering for a burger shop using HTML and CSS. Its is user intreactive and user friendly for customers</p>
+            </div>
+
+            <div>
+                <h2>Montra-Expesnse Tracker</h2>
+                <p>It is a UI design. This app is created for a expense managemnt of an induvidual. This app helps everyone to manage their expenses and financial criteria easily. </p>
+            </div>
+
+            <div>
+                <h2>House Rent Web Application</h2>
+                <p>In this project We developed a user-friendly house rent Web application using HTML,CSS,JavaScript for Fron-end and JavaScript framework for backend. This application allows users to easily search for rental properties,view property details and submit inquries.</p>
+            </div>   
+        </div>
+    </div>
+</div>
+
+ 
+<!----- Contact----->
+
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-envelope"></i>indhu9729@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i>8072149479</p>
+                <div class="social-icons">
+                    <a href="https://facebook.com/"><i class="fa-brands fa-facebook"></i></a>
+                    <a href=""><i class="fa-brands fa-square-twitter"></i></a>
+                    <a href=""><i class="fa-brands fa-instagram"></i></a>
+                    <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+                <br>
+                <a href="d:\oasis\portfolio\resume\indhu_resume.pdf" download class="btn btn2">Download Resume</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email"placeholder="Your Email" required>
+                    <textarea name="Message"rows="7"placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+       <p>This portfolio website was created by Indhu Krishnan Thank you for watching!...</p>
+    </div>
+</div>
+
+
+    <script>
+        var tablinks=document.getElementsByClassName("tab-links");
+        var tabcontents=document.getElementsByClassName("tab-contents");
+        function opentab(tabname)
+        {
+            for(tablink of tablinks)
+            {
+                tablink.classList.remove("active-link");
+            }
+             for(tabcontent of tabcontents)
+             {
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+
+    <script>
+        var sideMenu = document.getElementById("sidemenu");
+
+        function openmenu(){
+            sideMenu.style.right = "0";
+        }
+        function closemenu(){
+            sideMenu.style.right = "-200px";
+        }
+    </script>
+    
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbxD1TsWZJ0w1bEOgU6_Si6_ylKEvUhX691MCP2d4ySbyFIzwVZs834SaD3IziQ3zUglZw/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg")
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+                msg.innerHTML = "Done.."
+                setTimeout(function(){
+                    msg.innerHTML =""
+                },5000)
+
+                form.reset()
+
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+</body>
+</html>
